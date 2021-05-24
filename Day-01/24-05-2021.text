@@ -1,0 +1,160 @@
+
+24-05-2021:[Day-01]
+===================
+
+Good Evening to All:
+
+Rename your names in meeting as 
+
+	Rollnumber-name-collegecode
+	[rollnumber,name,collegename,?]
+
+Dont use spaces in your roll numbers and starting of your roll numbers
+
+Web Development by Using Django:
+================================
+
+Badulla and Ravi Kumar
+
+2nd and 3rd years
+	
+	Python - oops concepts
+	Html5,css3,javascript and jquery
+	Bootstrap-4
+
+
+Python Basics:
+==============
+	
+	Python:
+	=======
+		- Easy to learn and understood
+		- easy to code
+
+
+	Interpreter Language
+
+	what is meant by interpreter and compiler?
+
+	Interpreter -> It executes line by line if any errors occurs it will stops at that particular point
+
+	compiler -> It executes line by line but it displays all the errors at a time
+
+	Python Execution:
+	=================
+
+	Editor -> Notepad -> To write Code
+	Software -> python -> To execute a python program
+
+	Python download site: python.org
+	Python Version: 3.7.5
+
+	After downloading we need to install
+		 - custom installation
+		 - installation
+
+		 -> Add path to environment varaibles last checkbox -> c
+
+	Python is an internal or external command error =>
+
+	Checking of Python Version:
+	===========================
+	=> cmd pmpt
+		-> python -V
+			To know the python version
+
+	Execution of Python:
+	====================
+	Folder
+		- filename.py
+
+		-> command prompt navigate -> .py
+
+		=> filename.py (or) python filename.py
+
+	Advanced Editor:
+	----------------
+		- sublime
+		- geany - https://www.geany.org/download/releases/
+		- visual code
+		- atom
+		- notepad++
+
+	Python IDLE:
+	============
+	Advanced to command prompt 
+
+	cmd -> temporary file -> execute
+	Idle -> file -> execute
+
+	IDLE == IDE[combination of editor + interpreter]
+
+	Pycharm
+	Jupter notebook
+	visual code => python ?
+
+	Anaconda Navigator
+		-> jupyter notebook
+		-> spyder
+		-> jupyter Lab
+		-> Vs
+	=> 3 - 4 gb [space]
+
+	Jupyter Notebook:
+	=================
+	1 cell => 1 program
+	n numbers of programs in single .ipynb file
+	I => Interactive
+	Py => Python
+	Nb => Notebook
+
+	Installation Process:
+	=====================
+	To Install third party packages we need to install by using "pip" command
+
+	=> pip install jupyter notebook
+
+	Running of Jupyter Notebook:
+	============================
+	-> cmd
+		=> jupyter notebook
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
