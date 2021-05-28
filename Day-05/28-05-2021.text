@@ -1,0 +1,158 @@
+
+28-05-2021:
+===========
+	Good Evening to All....
+
+	Sorry for the delay
+
+	If you have any doubts please reply it in chatbox
+
+	Wait for a while we are waiting for others to join the session.
+
+	Please intimate for your friends to join the session as soon as possible.
+
+
+	Git and Github:
+	===============
+
+	Github Download files:
+	======================
+		-> https://git-scm.com
+
+	Local -> Server -> Local => file -> error
+	sample.c -> server -> sample.c
+		v					v
+
+	sample.c -> server -> sample.c
+		v					v
+		d 					d
+
+	Local -> server -> X
+
+	Day-01:
+	emp1 -> server
+	emp2 -> server
+	Day-02:
+	emp1 -> server
+	emp2 -> server
+
+	Distributed Version Control:
+	============================
+		TL -> Emp1 -> Online
+			Emp1 -> Local -> work -> Online
+			Emp2 -> Emp1 -> sample.py -> online
+
+	Git and Github[storage]
+
+	gmail -> mail
+	Github -> create
+
+	Local Work:
+	===========
+	git commands 
+	 -> git init
+
+	Folder -> APSSDC
+			 -> right click git bash
+
+	ls => list to display all files or fodler side by side
+	ls -a => Displays all files or folders including hidden file or folder
+	ls -l => Displays all files or folders in column format
+	ls -m => Displays all files or folders with comma seperated
+
+	Single file creation:
+		- touch filename.extension
+	Multiple File creation:
+		- touch filename1.extension filename2.extension
+
+	Removing a Single file:
+		- rm filename.extension
+	Removing Multiple Files:
+		- rm filename1.extension filename2.extension
+
+	Folder -> Directory -> repository
+
+	Step-1:
+	=======
+		- Initialising an empty repository to work git commands
+		- By default it creates a branch as "MASTER" or "MAIN"
+
+	Step-2:
+	=======
+		- Work has been completed
+
+
+	Step-3:
+	=======
+		- To Know the status we need to pass the command as 
+			=> git status
+
+	Untracked: -> file created or file modified
+	
+	Step-4:
+	=======
+		- To Make Changes from untracked to tracked
+			=> git add
+		- Single File adding to git
+			=> git add filename.extension
+		- Multiple Files adding to git
+			=> git add .
+	Step-5:
+	=======
+		- To save those changes by using checkpopint as commit
+			=> git commit -m "something message"
+		-> message => sha => starting 7 characters
+
+	Warning:
+	========
+		- git config user.name "username"
+		- git config user.email "your emailid"
+					(or)
+		+ To access your credentails for entire folder in your local systems
+		- git config --global user.name "username"
+		- git config --global user.email "your emailid"
+
+	- Tracked
+	Staging Area: -> Tracked
+
+	Step-6:
+	=======
+		- After configuring your email and your name in git bash then we need to update it by using git commit
+
+		- git commit -m "something message"
+
+	Step-7:
+	=======
+		- So after commit then we need to add remote where we need to upload your work in particular repository
+		- To add we need to create the repository and copy that url of repository
+		- git remote add "remotename" "branchname"
+		- To check the remote 
+			=> git remote
+			In this it displays how many remotes are added for that folder
+		- To check the fetch and push
+			=> git remote -v
+			-> In this it shows fetch and push
+		- To remove the remote 
+			=> git remote remove "remotename"
+
+	Step-8:
+	=======
+		- To push the content for online repository then we need to pass the command as
+			=> git push "remotename" "branchname"
+		- If the remotename is not added then by default "origin" will be created 
+		- If it creates an error as "fast-forward" then we need to unlink that repository and link to present then we need to use the command as
+			=> git push -f "remotename" "branchname" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
