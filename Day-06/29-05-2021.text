@@ -1,0 +1,88 @@
+
+29-05-2021:
+===========
+	Good Evening to All....
+
+	If You have any doubts please reply it in chatbox regarding yesterdays session
+
+	Just wait for a while we are waiting for others to join the session
+
+	To remove the global username and email:
+	----------------------------------------
+	git config --global --unset user.name 
+	git config --global --unset user.email
+
+	To Check the username and email is configured for git push:
+	----------------------------------------------------------- 
+	git config user.name ""
+	git config user.email ""
+
+	Yesterday:
+	==========
+		-> git init
+		-> git config user.name "urname"
+		-> git config user.email "ur mailid"
+		-> git remote add "remotename" "branchname[master]"
+		-> git remote -v
+		-> git remote 
+		-> git add .
+		-> git commit -m "something message"
+		-> git push "remotename" "branchname"
+		-> git status
+		-> git log
+		-> git remote remove "remotename"
+		-> git log --oneline
+
+	Today:
+	======
+		-> git push => offline => online 
+		-> git pull => online => offline
+		-> git clone => online => offline
+
+	** Git pull is to changes the folder or files from online to offline
+
+	Ramu:[Github => push]
+	=====
+		Folder-1:
+			- sample.c
+
+	Github:
+	=======
+		Folder-1:
+			- sample.c
+		Folder-2:
+			- demo.py -> X
+
+	Ramu -> offline:
+	================
+		git pull remotename branchname
+		Folder-1:
+			- sample.c
+		Folder-2:
+			- demo.py => X
+
+		vi editor
+		:wq
+
+	-> git log rev-list
+	-> git log HEAD --count
+	-> git checkout "commit message sha key"
+	-> git checkout master
+
+	-> git clone
+
+	Access:
+	=======
+	-> git clone "url"
+	-> git pull remotename branchname
+	-> git add .
+	-> git commit -m "message"
+	-> git push remotename branchname
+
+	-> git init
+	-> git config user.name "urname"
+	-> git config user.email "ur email"
+	-> git remote add remotename "repository url"
+	-> git push remotename branchname
+
+	-> git pull remotename brachname
