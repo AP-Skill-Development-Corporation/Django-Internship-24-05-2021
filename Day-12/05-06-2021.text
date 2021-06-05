@@ -1,0 +1,17 @@
+05-06-2021:
+===========
+	Good Evening to All..
+
+	If you have any doubts you can reply it in chatbox or else unmute and speak
+
+	We are waiting for others to join the session please intimate to your friends to join the session as soon as possible...
+
+
+	Folder -> Name
+		   -> git init
+		   -> git remote add "rn" "url"
+		   -> git add .
+		   -> git commit -m "sm"
+		   -> git config user.name ""
+		   -> git config user.email ""
+		   -> git push "rn" "branchname"
