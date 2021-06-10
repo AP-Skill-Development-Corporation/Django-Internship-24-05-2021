@@ -1,0 +1,127 @@
+
+10-06-2021:
+===========
+	Good Evening to All..
+
+	Please intimate to your friends to join the session as soon as possible we are waiting for others to join the session
+
+	If you have any doubts please reply it in chatbox or else unmute and speak
+
+	Try to rename your names in the given format that is 
+		rollnumber-name-collegecode
+	Dont try to keep in any other formats if we see those we will try to remove those persons from meeting.
+
+	Python Version check:
+	=====================
+		=> python -V
+
+	Pip Version check:
+	==================
+		=> pip --version
+
+	Django Installation:
+	====================
+		=> pip install django [Updated Version]
+		=> pip install django == versionnumber [Particular version]
+
+	Django Version check:
+	=====================
+		=> django-admin --version
+					(or)
+		=> python [shell]
+		=> import django
+		=> django.get_version()
+
+	Project Creation:
+	=================
+	-> Select Your drive where to create your project
+	-> Creation
+		=> django-admin startproject "projectname"
+
+		=> django-admin startproject FirstProject
+		=> FirstProject
+			=> FirstProject [Admin App]
+			=> manage.py [Services]
+
+	Project Execution:
+	==================
+	-> You need to navigate where the manage.py exists
+	-> Execution
+		=> manage.py runserver
+		=> python manage.py runserver
+		=> By default the port number is 8000
+	-> Changing of port number to a server
+		=> manage.py runserver 1234 [User Defined Port numbers]
+		=> python manage.py runserver 1234
+	-> In Browser we need to pass the url as
+		=> http://127.0.0.1:8000
+		=> Local server => 127.0.0.1 => localhost
+		=> localhost:8000
+
+	-> Runserver
+		=> db.sqlite3 => Database
+
+
+	FirstProject [ Admin App ]:
+	===========================
+	- init -> Python interpreter to be considered as a python file
+	- asgi -> Asynchronous GateWay Interface -> Web deployment
+	- wsgi -> Web Socket GateWay Interface -> Web deployment
+	- settings -> All Configurations can be done here [App,database,mail,messages]
+	- urls -> You need to pass the urls here to access it 
+
+	Manage.py:[Services]
+	====================
+		- startproject
+		- runserver
+		- startapp
+		- shell
+		- makemigrations
+		- migrate
+		- createsuperuser
+
+	To break server: ctrl + c
+	================
+	UserApp Creation:
+	=================
+		=> manage.py startapp "appname"
+		=> python manage.py startapp "appname"
+
+		=> manage.py startapp FirstApp
+
+	UserApp Files:
+	==============
+	- init -> Python interpreter to be considered as a python file
+	- admin -> Database tables and fields => view => List
+	- apps -> app configurations
+	- models -> Database => Fields => Datatype => length
+	- tests -> unit testing
+	- views -> Logic are included
+
+	First Step to run our own app:
+	==============================
+	- Settings.py
+		=> INSTALLED_APPs =[
+		'',
+		'',
+		'appname',
+		]
+	- own url
+		=> urls.py
+		urlpattern = [
+		path('admin/',admin.site.urls),
+		path('',modulename.functionname),
+		]
+	- path:
+	=======
+		path('urlname/',modulename.functionname,name="useredefinedname"),
+
+	- own function in views.py
+		=> 
+
+
+
+
+
+
+
