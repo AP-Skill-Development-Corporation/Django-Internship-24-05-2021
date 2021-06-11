@@ -1,0 +1,60 @@
+
+11-06-2021:
+===========
+	Good Evening to All...
+
+	Pleae intimate to your friends to join the session as soon as possible we are waiting for others to join immediately
+
+	urls => url
+		views => HttpResponse => browser
+
+	url => views => htmltag
+
+	localhost:8000/un/value/
+		<h2>Hi Welcome value</h2>
+
+	localhost:8000/un/value/
+		<h2>Hi Welcome <span style='color:value'>value</span></h2>
+
+
+	url => view => browser
+
+	url => views => .html
+
+	return render()
+
+
+	render():
+	=========
+
+	def functioname(req):
+		context = {'key':value}
+		return render(req,'.html',context)
+
+	render(self,'path of .html',dictionary)
+
+
+	templates => .html files 
+		templates
+			html
+				first.html
+			ht1
+				first.html
+
+		render(request,'html/first.html')
+		render(request,'ht1/first.html')
+
+		templates
+			first.html -> firstapp
+			first.html -> secondapp
+
+		render(request,'first.html')
+
+
+
+
+
+
+
+
+
