@@ -1,0 +1,116 @@
+
+12-06-2021:
+===========
+	Good Evening to All..
+
+	Please intimate to your friends to join the session as soon as possible
+
+	we are waiting for others to join the session if you have any doubts please reply it in chatbox or else unmute an speak
+
+	something content had viewed by using template
+
+	localhost:8000/ul/value
+
+
+		Hi welcome ?
+
+	DTL:[Django Template Language]
+	==============================
+
+	Variable -> {{variablename}}
+
+	Conditional Statements:
+
+	{% if condition %}
+		//stmnts
+	{% endif %}
+
+
+	{% if condition %}
+		//stmnts
+	{% else %}
+		//stmnts
+	{% endif %}
+
+	{% if condition %}
+		//stmnts
+	{% elif condition %}
+		//stmnts
+	{% else %}
+		//stmnts
+	{% endif %}
+
+	Loops:
+	=====
+	{% for iterationvariable in iterator %}
+		//stmnts
+	{% endfor %}
+
+
+	url -> views -> Browser
+
+	url -> views -> template -> Browser
+
+	CSS3 Styling:
+	============
+		- Inline -> Within a tag
+		- Internal -> seperators,tag,id -> #,class -> . -> 
+		<style>
+		h2
+		{
+			property:value;
+			property1:value1;
+		}
+		</style> 
+		- External -> .css[External file => Link]
+
+	External:
+	=========
+	static
+		css -> styling
+		js -> validation
+		jquery -> action
+		images -> .extension
+
+	url -> views -> template -> views -> template
+
+	static 
+	{% load static %}
+
+	<link rel="stylesheet" href="{% static 'css/filename.extension' %}">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
