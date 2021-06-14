@@ -1,0 +1,16 @@
+
+14-06-2021:
+===========
+	Good Afternoon to All..
+
+	#### internalJs and External JS
+	#### Navigating form data from one html to another html.
+			urls->views->tempates->urls->views->templates
+
+		- form Methods:
+			 here we 2 different types methods:
+			 	- get
+			 		- by default html form will considerf get method.
+			 		- here we caont provide security.
+			 	- post:
+			 		- here we will provide security
