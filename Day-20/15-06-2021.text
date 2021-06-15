@@ -1,0 +1,15 @@
+15-06-2021:
+===========
+	Good Evening to All..
+	### Images:
+		- we have to create a folder inside static 
+		i.e, images
+		- you have to keep a image inside that images folder
+	### Task1: you have to create a new registration form with 
+		fisrtname,lastname,emailid,phonono,gender(radio),address(textare),languagesuknow(checkbox),i
+		if possible include select control also etc.
+		then you have to print that entire data in anotherr html file.
+	### task2: perform login authentication
+		- u have to crete login form.
+		 - if uname and pwd is valid u just print user is valid
+		 - otherwise u just user is not valid
