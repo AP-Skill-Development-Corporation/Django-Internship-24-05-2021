@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Html Form</title>
+</head>
+<body>
+<form action="{% url 'myform1' %}" method="post">
+	{% csrf_token %}
+	<input type="text" name="uname" placeholder="Enter User Name"><br>
+	<input type="text" name="rollno" placeholder="Enter Rollno"><br>
+	<input type="email" name="email" placeholder="Eneter Email Id"><br>
+	<input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
