@@ -1,0 +1,76 @@
+
+18-06-2021:
+===========
+	
+	Good Evening to All...
+
+	Please intimate to your friends to join the session as soon as possible
+
+	If you have any doubts please reply it in chat box
+
+
+	localhost:8000/home
+	localhost:8000/aboutus
+	localhost:8000/details
+
+	Home/About/Details
+
+	Mysql,Monogodb,postgresql,
+	sqlite3 [Minimum storage]
+	Data => Database
+
+	CRUD Operations:
+	================
+	C => Create
+	R => Reading -> view
+	U => Update 
+	D => Delete
+
+	SqL:
+	====
+	Create table table_name(
+	variable variable_type(arguments),
+
+	);
+
+	Existing Table:
+	auth_user
+
+	appname_classname
+
+	MakeMigrations => table => variablename,type,value
+		-> migrations => interfacing file
+						=> 0001_initial.py
+		-> sqlite3
+
+	Migrate => changes to be effected for database
+
+	Admin Creation
+
+	url=>views=>templates=>views=>templates
+
+	url=>views=>templates=>views=>dbbrowser=>template
+
+	Admin[Superuser]:
+	================
+
+	manage.py createsuperuser
+	username => PC Name "Admin => Name"
+	Email => X
+	Password => xxxxxx (not visible)
+	Cnfirm Password => xxxxxx (not visible)
+	Password (y/n)? y
+
+
+	django = 3.0
+		project
+
+	django = 3.2.4
+		project => 3.0
+
+		
+
+
+
+
+
