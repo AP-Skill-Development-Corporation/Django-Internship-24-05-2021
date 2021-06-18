@@ -1,0 +1,64 @@
+
+17-06-2021:
+===========
+	Good Evening to All...
+
+	Bootstrap -> online
+		=> Link -> internet
+
+	Boostrap -> offline
+		=> Link => static => [css,js,jquery,images]
+
+	Links:
+	======
+		=> css -> boostrap.min.css
+		=> jquery
+		=> js -> bootstrap.min.js
+
+	class = "bg-success"
+	class = "text-center"
+
+	class = "bg-success text-center text-light"
+
+
+	{% load static %}
+
+	margin => 0 - 5
+		margin => Left right bottom top
+		margin-left => ml
+		margin-right => mr
+		mt,mb
+		left,right => mx
+		top,bottom => my
+	padding => 0 - 5
+		p-2
+		px => left,right
+
+	Grid systems:
+	=============
+
+	Device => xm
+		   => sm
+		   => md
+		   => lg
+		   => xl
+
+	.html:
+	=======
+	12  columns
+	=> 6 = 6
+	=> 4 = 8
+	=> 4 = 9[it splits to another row]
+
+	colors:
+	=======
+		=> success,secondary,primary,danger,info,light,warning,dark
+		=> cards,buttons,badges,alert,jumbotron,background
+
+	card:
+	=====
+
+		card
+		card-title
+		card-body
+		card-footer
