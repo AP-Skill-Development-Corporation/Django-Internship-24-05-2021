@@ -73,3 +73,7 @@ def register2(request):
 def display(request):
 	data = Register.objects.all()
 	return render(request,'html/display1.html',{'data':data})
+
+def sview(request,y):
+	w = Register.objects.get(id=y)
+	return HttpResponse("Your Name is: {} and your email id is: {}".format(w.name,w.email))

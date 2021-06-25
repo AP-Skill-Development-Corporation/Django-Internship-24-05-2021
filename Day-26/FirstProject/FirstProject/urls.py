@@ -35,6 +35,7 @@ urlpatterns = [
     path('register1/',views.register1),
     path('register2/',views.register2,name= "register2"),
     path('display/',views.display),
+    path('viw/<int:y>/',views.sview,name="sv"),
     
 ]
 
