@@ -1,0 +1,27 @@
+26-06-2021:
+===========
+	Good Evening to All...
+
+	CRUD => Register => name,email
+
+	url => views => template => views => Model[Database]
+				 => template => views => Model[Database] => views => template
+
+	Restaurant => Project Folder
+		Restaurant => Admin App
+		RestApp => UserApp
+
+	Admin => urls.py
+	user-1 => urls => path('n/<int:p>/',views.index)
+	user-2 => urls => path('m/<int:q>/',views.index)	  	
+
+	Admin => urls.py
+			path('admin/',)
+			path('',)
+
+	User-1 => urls.py
+			  path('m/<int:q>/',views.name),
+	User-2 => urls.py
+			  path('m/<int:p>/',views.name),
+
+	
