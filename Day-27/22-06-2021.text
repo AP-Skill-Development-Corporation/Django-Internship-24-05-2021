@@ -1,0 +1,17 @@
+
+25-06-2021:
+==========
+	Good Evening to All..
+
+	Please intimate to your friends to join the session as soon as possible.
+
+	If you have any doubts please reply it in chat box or else unmute and speak.
+
+	{% csrf_token %}
+
+	Form => Senstive data => form => user crack => views 
+
+
+	from django.shortcuts import render,redirect
+	path('tre/',),
+	redirect('/urlfirstname')

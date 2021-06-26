@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+<form action="{% url 'register2'%}" method="POST">
+	{% csrf_token %}
+	Name : <input type="text" name="name"><br>
+	Email Id: <input type="email" name="email"><br>
+	<button type="submit">Register</button>
+</form>
+</body>
+</html>
