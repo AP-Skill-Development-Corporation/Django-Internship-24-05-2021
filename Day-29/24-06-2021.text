@@ -1,0 +1,22 @@
+28-06-2021:
+===========
+	
+	Good Evening to All...
+
+	Please try to intimate to your friends to join the session as possible.
+
+	If you have any doubts please reply it in chat box or else unmute and speak.
+
+	Register -> form
+
+	Restaurant -> forms.py -> views -> .html 
+	Rname
+	Items
+	Time
+	Area
+
+
+	{{t.as_p}} => as_ paragraph
+	{{t.as_div}} => as_ div tag
+	{{t.as_li}}
+	{{t.as_table}}
