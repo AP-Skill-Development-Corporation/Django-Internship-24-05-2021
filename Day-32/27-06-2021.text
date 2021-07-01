@@ -1,0 +1,55 @@
+
+01-07-2021:
+===========
+	Good Evening to All...
+
+	Please intimate to your friends to join the session as soon as possible.
+
+	If you have any doubts please reply it in chat box or else unmute and speak.
+
+	messages
+	mail
+	login,logout => generics
+	role
+	profile update
+	change password,forgot password
+	mysql
+
+	heroku -> youtube
+
+
+	messages:
+	=========
+	Update,created,info,waring,delete
+
+	alert
+
+	from django.contrib import messages
+
+	tag names => success,info,debug,warning
+	
+	messages.success(self,"messages")
+
+	{% if messages %}
+	{% for j in messages %}
+	<div class="alert {{j.tags}}">
+	{{j}}
+	</div> 
+	{% endfor %}
+	{% endfor %}
+
+	Items List:
+	===========
+
+	Iname
+	Icategory
+	Price
+	Iimage
+	Itavailability
+	restid => foreignkey
+
+	Zomato => manager
+		Items => manager
+		Iteslist => user => view
+
+
