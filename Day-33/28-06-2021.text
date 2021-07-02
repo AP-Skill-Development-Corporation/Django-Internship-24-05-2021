@@ -1,0 +1,53 @@
+02-07-2021:
+===========
+
+	Good Evening to All...
+
+
+	Please try to intimate to your friends to join the session as soon as possible
+
+	If you have any doubts please reply it in chatbox or else unmute and speak
+
+	Yesterdays Task:
+	================
+	Items List:
+	===========
+	Iname
+	Icategory
+	Price
+	Iimage
+	Itavailability
+	restid => foreignkey
+
+	<table class="table table-borderless table-hover">
+					<tr class="bg-dark text-light">
+						<th>Sno</th>
+						<th>Item Name</th>
+						<th>Category</th>
+						<th>Price</th>
+						<th>Availability</th>
+						<th>Actions</th>
+					</tr>
+					{% for v in s %}
+					<tr>
+						<td>{{forloop.counter}}</td>
+						<td>{{v.iname}}</td>
+						<td>
+							{% if v.icategory == 'VG' %}
+							<span class="badge badge-success">Vegeterian</span>
+							{% else %}
+							<span class="badge badge-danger">Non Vegeterian</span>
+							{% endif %}
+						</td>
+						<td>{{v.price}}</td>
+						<td>
+							{% if v.itavailability == 'AV' %}
+							<span class="badge badge-success">Available</span>
+							{% else %}
+							<span class="badge badge-danger">Not Available</span>
+							{% endif %}
+						</td>
+						<td><a href="#" class="btn btn-outline-info mx-1">Update</a><a href="#" class="btn btn-outline-danger mx-1">Delete</a></td>
+					</tr>
+					{% endfor %}
+				</table>
