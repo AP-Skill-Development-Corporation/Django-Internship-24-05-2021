@@ -1,0 +1,24 @@
+03-07-2021:
+==========
+	Good Evening to All...
+
+	Please try to intimate for others to join the session as soon as possible
+
+	If you have any doubts please reply it in chat box or else unmute and speak
+
+	Yesterday the error is on models for decimal field data type we need to increase the max_digits as 8 and decimal_points to 2 then only the value of 250.00 values can be inserted into the database.
+
+	User: Model => forms => .html => data
+	User Creating => ModelForm
+
+	Exisitng UserForm => UserCreationForm
+
+	Existing User Model:
+	====================
+
+	User Registration
+	Login
+	Logout
+
+	Generics => ClassBase
+
