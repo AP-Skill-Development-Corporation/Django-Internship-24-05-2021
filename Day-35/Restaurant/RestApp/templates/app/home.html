@@ -1,0 +1,38 @@
+{% extends 'app/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row mx-3 mt-3">
+  	<div class="col-md-7">
+  		<h3>Carousel</h3>
+  	</div>
+  	<div class="col-md mx-2">
+  		<h3>Items List</h3>
+  	</div>
+  </div>
+
+  <div class="row mx-2">
+  	{% for x in c %}
+  	<div class="col col-md-3">
+  		<div class="card shadow-lg my-2">
+  			<img src="{{x.rsimg.url}}" class="card-img-top" height="120px">
+  			<div class="card-body">
+  				<tr>
+  					<td><span class="badge badge-info" style="font-size:25px">{{x.rname}}</span>
+  					<span style="font-size: 20px;float:right">{{x.address}}</span></td>
+  				</tr>
+  				<div class="row">
+  					<div class="col">
+  						<h6>Items: {{x.nitems}}</h6>
+  					</div>
+  					<div class="col">
+  						<h6>Timings: {{x.timings}}</h6>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	{% endfor %}
+  </div>
+</div>
+{% endblock %}
