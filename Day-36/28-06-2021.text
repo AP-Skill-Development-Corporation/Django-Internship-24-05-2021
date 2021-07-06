@@ -1,0 +1,17 @@
+06-07-2021:
+===========
+
+	Good Evening to All...
+
+	Please try to intimate to your friends to join the session as soon as possible
+
+	If you have any doubts please reply it in chat box or else unmute and speak
+
+	I will start session at 5:10 untill complete the task that si given by yesterday if anyone is completed please reply it in chat box.
+
+
+
+	{[('1':['rest1','vg','230.00','na'])],[('2':['rest2','vg','230.00','na'])]}
+
+	for v in s:
+		print(v.0)
