@@ -1,0 +1,56 @@
+07-07-2021:
+===========
+	Good Evening to All...
+
+	Please try to intimate to your friends to join the session as soon as possible
+
+	If you have any doubts please reply it in chatbox or else unmute and speak.
+
+	Profile :
+	=========
+	age
+	dob
+	ima
+	address
+	mobilenumber
+
+	from django.contrib.auth.models import AbstractUser
+
+	existing model => All fields
+
+	class Ruser(AbstractUser):
+		age
+		dob
+		ima
+		address
+		mobilenumber
+		r = [(1,'Guest'),(2,'Manager'),(3,'Users')]
+
+	settings.py:
+	=============
+	AUTH_USER_MODEL = 'appname.Ruser'
+
+	Manager => Restaturant => Add,edit,update,delete
+			=> Items => Add,edit,update,delete
+			=> Placeorder => Status
+
+	User => Restaurant => View
+			Items => view
+			Placeorder => Food Order => Add,edit,update,delete
+
+	Guest => Restaurant => view
+		     Items => view
+
+	Guest:
+	======
+		Role Requests:
+		==============
+		Roletype => Manager,user
+		Proof => Id,aadhar[Restaurant => Image]
+		
+
+
+
+
+
+
