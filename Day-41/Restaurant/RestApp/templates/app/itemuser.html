@@ -1,0 +1,43 @@
+{% extends 'app/base.html' %}
+{% block title %}Items List{% endblock %}
+{% block content %}
+<div class="container-fluid mt-4">
+	<div class="row mx-2">
+    {% for x in tq %}
+    <div class="col col-md-3">
+      <div class="card shadow-lg my-2 h-80">
+        <img src="{{x.iimage.url}}" class="card-img-top" height="120px">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <i>
+              	<span class="badge badge-warning" style="font-size:15px">{{x.iname}}</span>
+              	{% if x.icategory == 'VG' %}
+          		<span class="badge badge-info">Vegeterian</span>
+          		{% else %}
+          		<span class="badge badge-success">Non-Vegeterian</span>
+          		{% endif %}	</i>
+            </div>
+            <div class="col">
+              <span class="badge badge-dark float-right p-2" style="font-size:14px">Rs.{{x.price}}/-</span>
+            </div>
+          </div>
+          <div class="row">
+          	<div class="col">
+          		<span>Item Availability</span>
+          		<span>
+          		{% if x.itavailability == 'NA' %}
+          		<span class="badge badge-danger">Not-Available</span>
+          		{% else %}
+          		<span class="badge badge-secondary">Available</span>
+          		{% endif %}
+          		</span>
+          	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

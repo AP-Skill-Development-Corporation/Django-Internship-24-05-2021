@@ -1,0 +1,61 @@
+
+12-07-2021:
+===========
+	Good Evening to All...
+
+	Please try to intimate to your friends to join the session as soon as possible
+
+	Try to download the Xampp server and install in your systems if not i will try to complete the process then after session you can proceed in that process..
+
+	If you have any doubts please reply it in chat box or else unmute and speak...
+
+	This is the link to download xampp server
+	https://www.apachefriends.org/download.html
+
+		In that u can prefer anyone of the version
+		But we need to link that myserver with mysql client driver for some version of python wont accept that driver let me discuss topic first then i will try to resolve those errors
+
+
+
+	Database Configurations for Mysql:
+	=================================
+	DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dj3',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+        }
+    }
+
+
+    Mysql Configurations:
+    =====================
+    Python Version => mysqlclient driver
+
+    xampp => server => start
+    Database Creation in mysql
+
+    xampp Mysql <=> mysqlclient driver <=> Django server 
+
+    Mysql => store
+
+    User => existing 
+    new user => 
+
+    Pfle => new model
+    age => 
+    mobile =>
+
+    User <=> Signal <=> Pfle 
+
+    User => pfle => fields => AbstractUser [User,Pfle]
+
+    comments:
+
+    cmnted
+    description
+    title
+    

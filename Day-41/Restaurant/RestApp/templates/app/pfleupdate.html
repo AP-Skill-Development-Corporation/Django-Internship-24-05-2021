@@ -1,0 +1,36 @@
+{% extends 'app/base.html' %}
+{% block title %} Profile Update {% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-6 mx-auto shadow-lg">
+		<div class="card-body">
+			<h3>Profile Update</h3>
+			<form method="post" enctype="multipart/form-data">
+				{% csrf_token %}
+				{% for i in u %}
+				<!-- {% if forloop.counter == 1 %}
+				<input type="text" name="username" value="{{user.username}}" class="form-control my-2" readonly>
+				<tr>
+					{% elif forloop.counter == 2 %}
+					<td><input type="text" name="first_name" value="{{user.first_name}}" class="form-control my-2" placeholder="Update First Name"></td>
+					{% elif forloop.counter == 3 %}
+					<td>
+					<input type="text" name="last_name" class="form-control my-2" value="{{user.last_name}}"></td>
+				</tr>
+				{% else %}
+				{% endif %} -->
+				<div>{{i}}</div>
+				{% endfor %}
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'pf' %}" class="btn btn-outline-info form-control my-2">Back</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Update" class="btn btn-outline-success my-2 form-control">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
